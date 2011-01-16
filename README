@@ -1,0 +1,24 @@
+Global setup:
+
+Download and install Git
+	git config --global user.name "liuhb"
+	git config --global user.email liuhb2@gmail.com
+	         
+mkdir tools
+	cd tools
+	git init
+	touch README
+	git add README
+	commit -m 'first commit'
+	git remote add origin git@github.com:liuhb/tools.git
+	git push origin master
+							       
+Existing Git Repo?
+	cd existing_git_repo
+	git remote add origin git@github.com:liuhb/tools.git
+	git push origin master
+
+
+
+muqueue.cpp is a multi-threaded queue 
+
